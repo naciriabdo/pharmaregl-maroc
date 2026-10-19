@@ -1,0 +1,11 @@
+# Secrets : la clé API ne doit jamais être publiée
+.streamlit/secrets.toml
+.env
+
+# Environnement Python et fichiers temporaires
+.venv/
+__pycache__/
+*.pyc
+
+# Index reconstruit automatiquement
+data/
